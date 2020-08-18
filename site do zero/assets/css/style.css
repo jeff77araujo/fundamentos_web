@@ -1,0 +1,66 @@
+body {
+    background-image: url('../image/fundo-poke.jpg');
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(86, 198, 206);
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0 7px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    color: rgb(8, 8, 8);
+    margin: 50px;
+    margin-top: 100px;
+    font-size: 35px;
+    border-radius: 3%;
+}
+
+.pokemon a {
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2px;
+    color: rgb(10, 10, 10);
+    
+}
+
+#pikachu {
+    background-color: rgb(255, 230, 0);
+}
+#pikachu:hover {
+    background-color: rgb(145, 131, 5);
+}
+
+#charmander {
+    background-color: rgb(255, 153, 0);
+}
+#charmander:hover {
+    background-color: rgb(128, 78, 5);
+}
+#bulba {
+    background-color: rgb(89, 197, 16);
+}
+#bulba:hover {
+    background-color: rgb(42, 99, 4);
+}
+
+#squi {
+    background-color: rgb(13, 122, 194);
+}
+#squi:hover {
+    background-color: rgb(9, 75, 119);
+}
+
+.direita {
+    float: right;
+}

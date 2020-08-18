@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus contatos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <ul>
+    <ul class="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -21,26 +21,29 @@
 
     <h1 class="center">Entre em contato comigo:</h1>
     <div class="container">
-        <div>
-            <h2>Mande uma mensagem:</h2>
+        <div class="padding-30">
             <form>
                 <label for="nome">Nome</label><br>
-                <input type="text" id="nome">
-                <br><br>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                <br>
                 <label for="email">E-mail</label><br>
-                <input type="email" id="email">
-                <br><br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
+                <br>
                 <label for="assunto">Assunto</label><br>
-                <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
-                <button>Enviar</button>
+                <textarea name="assunto" id="assunto" cols="80" rows="15"></textarea><br>
+                <button class="font-20">Enviar</button>
             </form>
         </div>
 
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467689.7971944828!2d-46.8754915172196!3d-23.68216038895823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1597679004872!5m2!1spt-BR!2sbr"
-        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
-        <p class="justify">São Paulo - SP, Brasil</p>
+        <div class="border">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467689.7971944828!2d-46.8754915172196!3d-23.68216038895823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1597679004872!5m2!1spt-BR!2sbr"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            <hr>
+        </div>
 
     </div>
 
@@ -56,10 +59,11 @@
         </a>
     </div>
 
-    <footer class="center">
+    <footer class="center mb-50">
         Todos os direitos reservados: Jeff Araujo &copy;
     </footer>
 
+    <script src="assets/javascript/script.js"></script>
 
 </body>
 

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="icon" type="image/png" href="assets/image/pokebola.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <form class='main card'>
+        <label for="nome">Digite seu nome</label><br>
+        <input type="text" id="nome">
+        <button onclick="pegaNome()">pronto</button>
+        <div id="txtNome"></div>
+    </form>
+
+    <div class="main card" id="mostrar">
+        <div id="mostrar"></div>
+        ESCOLHA UM POKÉMON
+        <img class="logo" src="assets/image/pokebola.png" alt="" width="30">
+    </div>
+
+    <div class="main">
+       
+        <div id="pikachu" class="card main">
+            <div class="pokemon">
+                <a href="./pikachu.html">PIKACHU
+                    <img class="logo" src="assets/image/pikachu-logo.png" alt="" width="30">
+                </a>
+            </div>
+        </div>
+        <div id="charmander" class="card main">
+            <div class="pokemon">
+                <a  href="./charmander.html">CHARMANDER
+                    <img class="logo" src="assets/image/charmander-logo.png" alt="" width="30">
+                </a>
+            </div>
+        </div>
+        <div id="bulba" class="card main">
+            <div class="pokemon">
+                <a href="./bulbasaur.html">BULBASAUR
+                    <img class="logo" src="assets/image/bulbasauro-logo.png" alt="" width="30">
+                </a>
+            </div>
+        </div>
+        <div id="squi" class="card main">
+            <div class="pokemon">
+                <a href="./squirtle.html">SQUIRTLE
+                    <img class="logo" src="assets/image/squirtle-logo.png" alt="" width="40">
+                </a>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
