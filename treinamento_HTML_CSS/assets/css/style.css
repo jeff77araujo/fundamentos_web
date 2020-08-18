@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(194, 207, 226);
+}
+
 .container {
     display: flex;
     flex-flow: row;
@@ -5,7 +9,7 @@
     margin-right: 300px;
     margin-left: 300px;
     align-items: center;
-    
+    font-size: 20px;
 }
 
 .div1 {
@@ -25,20 +29,20 @@
     text-align: justify;
 }
 
-#menu li {
+.menu li {
     display: inline;
     margin: 15px;
     padding: 15px;
 }
 
-#menu li a {
+.menu li a {
     text-decoration: none;
     color: blue;
     font-size: 20px;
     justify-content: right;
 }
 
-#menu li a:hover {
+.menu li a:hover {
     color: red;
     font-size: 25px;
 }
@@ -50,9 +54,22 @@
 }
 
 .mb-50 {
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
-.border-30 {
-    border: 30%;
+.border {
+    border: solid 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.padding-30 {
+    padding: 30px;
+}
+
+.font-20 {
+ font-size: 20px;
 }

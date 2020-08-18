@@ -1,0 +1,67 @@
+body {
+    background-image: url('../image/fundo-poke.jpg');
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+.main {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: rgb(86, 198, 206);
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    color: rgb(30, 49, 216);
+    margin: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+.card:hover {
+    background-color: rgb(19, 168, 179);
+}
+
+.pokemon img {
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+.direita {
+    float: right;
+}
+
+#opcao {
+    text-decoration: none;
+    background-color: rgb(189, 32, 21);
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    color: rgb(245, 246, 250);
+    margin: 10px;
+    margin-top: 150px;
+    font-size: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+#opcao:hover {
+    background-color: rgb(128, 18, 10);
+}
+
+.card a {
+    text-decoration: none;
+}
