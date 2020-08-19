@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="menu">
+        <ul>
+            <li><img id="logoGen" src="assets/image/logo.png" alt="logo">
+            </li>
+            <li><a href="#sobreGen">Sobre a Generation</a></li>
+            <li><a href="#sobreCurso">Sobre o curso</a></li>
+            <li><a href="#curriculo">Currículo do Curso</a></li>
+            <li><a href="#trabalho">Mercado de trabalho</a></li>
+            <li><a href="#inscrever">Inscreva-se</a></li>
+        </ul>
+    </nav>
+    <!-- Sobre a Generation -->
+    <section id="sobreGen">
+        <h1 class="text-center">Sobre a Generation</h1>
+
+        <div id="container-sobre">
+            <div id="texto-sobre">
+                <p class="ml-40">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati saepe earum magnam
+                    officia
+                    exercitationem! Itaque corrupti, beatae, aspernatur consequatur laboriosam autem ipsa qui error
+                    minus
+                    similique nulla praesentium provident ut. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Ratione obcaecati ipsum reiciendis impedit ad? Doloribus in, beatae esse aliquam hic eaque deserunt
+                    iure
+                    perspiciatis blanditiis maxime. Culpa inventore earum porro?</p>
+            </div>
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kdGWKGM7yoA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+    <!-- /Sobre a Generation -->
+
+    <!-- Sobre o curso -->
+
+    <section id="sobreCurso">
+        <h1 class="text-center">Sobre o curso: React Native</h1>
+
+        <div id="container-curso">
+
+            <div>
+                <img id="image-react" src="assets/image/react-logo.png" alt="">
+            </div>
+
+            <div class="mr-40">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ab amet, consectetur sunt adipisci
+                    consequatur qui. Voluptate veniam qui repudiandae facilis vel corrupti similique, doloribus
+                    accusantium amet itaque beatae sapiente. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Natus id maxime similique rem totam? Porro provident ab cupiditate possimus consequatur tempore rem
+                    expedita officia, quo qui veniam libero reiciendis eveniet.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- /Sobre o curso -->
+
+    <!-- curriculo -->
+    <section id="curriculo">
+
+        <h1 class="text-center">Curriculo do Curso</h1>
+
+        <div id="container-curriculo">
+
+            <div>
+                <h4 class="text-center">Bloco I</h4>
+                <ul>
+                    <li>SCRUM</li>
+                    <li>Lógica de programação</li>
+                    <li>Linguagem de programação JAVA</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-center">Bloco II</h4>
+                <ul>
+                    <li>MySQL</li>
+                    <li>Spring Boot</li>
+                    <li>Docker part.1</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-center">Bloco III</h4>
+                <ul>
+                    <li>Fundamentos Web</li>
+                    <li>Angular</li>
+                    <li>Docker part.2</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- /curriculo -->
+
+    <!-- Mercado de Trabalho -->
+
+    <hr>
+    <section id="trabalho">
+        <h1 class="text-center">Mercado de Trabalho</h1>
+
+        <p class="ml-40 mr-40">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid aliquam ab quo nam deleniti magnam sit
+            neque illo facere minima. Reiciendis rerum corporis atque praesentium deleniti ipsa veritatis repellendus
+            possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, libero numquam magnam ab nam
+            eaque facilis, harum quisquam fuga, quo soluta autem illo. Veritatis sit earum, odio atque voluptatibus
+            rerum!</p>
+
+    </section>
+
+
+    <!-- /Mercado de Trabalho -->
+
+    <!-- Inscreva-se -->
+    <div id="color-form">
+        <section id="inscrever">
+
+            <h1 class="text-center">Inscreva-se</h1>
+
+            <form>
+                <div class="row">
+                    <label for="nome">Nome completo</label>
+                    <input class="button" type="text" id="nome">
+                </div>
+
+                <div class="row">
+                    <label for="email">E-mail</label>
+                    <input class="button" type="email" id="email">
+                </div>
+
+                <div class="row-2">
+                    <label for="dtNasc">Data de Nascimento</label>
+                    <input class="button" id="button" type="date" id="dtNasc">
+
+                    <label for="estado">Estado que reside</label>
+                    <select class="button" name="estado" id="estado">
+                        <option value="">SP</option>
+                        <option value="">RJ</option>
+                        <option value="">BA</option>
+                        <option value="">MG</option>
+                        <option value="">PE</option>
+                        <option value="">CE</option>
+                    </select>
+                </div>
+                <div class="row-2 row">
+                    <label class="button" for="estado">Como você conheceu a Generation?</label>
+                    <select class="button" name="estado" id="estado">
+                        <option value="">Linkedin</option>
+                        <option value="">Facebook</option>
+                        <option value="">Google</option>
+                        <option value="">Indicação</option>
+                        <option value="">Whatsapp</option>
+                        <option value="">Outros</option>
+                    </select>
+                    <!-- <label for="conheceu"></label>
+                    <input class="button" type="text" id="conheceu"> -->
+                </div>
+
+                <div class="row">
+                    <button class="button" onclick="enviar()">Enviar</button>
+                </div>
+            </form>
+
+        </section>
+    </div>
+
+    <!-- /Inscreva-se -->
+    <hr>
+    <!-- footer -->
+    <footer>
+        <div id="container-footer">
+            <a href=""><img class="tm-icone p-30" src="assets/image/facebook.png" alt=""></a>
+            <a href=""><img class="tm-icone p-30" src="assets/image/instagram.png" alt=""></a>
+            <a href=""><img class="tm-icone p-30" src="assets/image/linkedin.png" alt=""></a>
+
+        </div>
+
+        <p class="text-center">
+            Todos os direitos reservados para: 2020 Generation: You Employed, Inc.
+        </p>
+    </footer>
+
+    <!-- /footer -->
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
