@@ -28,14 +28,14 @@ nav ul {
     text-align: center;
     display: flex;
     justify-content: flex-end;
-    padding: 0;
+
 }
 
 nav a {
     padding: 10px 20px;
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
 }
 nav a:hover {
     color: rgb(68, 110, 226);
