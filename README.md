@@ -1,8 +1,8 @@
 # fundamentos_web
 
-SITE Pokemon:
-https://jeff77araujo.github.io/fundamentos_web/sitePoke/
-
+SITE Pokemon: <a Href="https://jeff77araujo.github.io/fundamentos_web/sitePoke/">Ver</a>
+<br>
 SITE Comercial Generation:
-https://jeff77araujo.github.io/fundamentos_web/site-modelo-Generation/
+<a Href="https://jeff77araujo.github.io/fundamentos_web/site-modelo-Generation/">Ver</a>
+
 
